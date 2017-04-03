@@ -10,7 +10,8 @@ Specifically, I hope to look at production and revenue, and job growth/labour st
 -2017 US Dept of Energy jobs report: https://www.energy.gov/sites/prod/files/2017/01/f34/2017%20US%20Energy%20and%20Jobs%20Report_0.pdf
 
 -2016 Int'l Renewable Energy Agency jobs report: http://www.se4all.org/sites/default/files/IRENA_RE_Jobs_Annual_Review_2016.pdf
-Bureau of Labour Statistics info on wages: https://www.bls.gov/green/solar_power/solar_power.pdf (also includes lots of sources with more relevant info)
+
+-Bureau of Labour Statistics info on wages: https://www.bls.gov/green/solar_power/solar_power.pdf (also includes lots of sources with more relevant info)
 Insight could be most relevant for job-seekers and students deciding on what to become trained in, employers, policymakers and energy producing companies at the municipal, state and international levels.
 
 ## 2nd Idea: Analysis on Agriculture
