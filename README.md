@@ -8,6 +8,7 @@ Hey all. So far I think I'd be pretty interested in exploring the applications o
 Specifically, I hope to look at production and revenue, and job growth/labour statistics in comparison with fossil fuels and the rest of the energy sector. The US Dept of Energy, and US Bureau of Labour Statistics has quite a bit of current data, and I hope to explore the situation in other countries as well if it isn't too much work. The current data is easily viewable but I'm still hopeful I'll be able to compare with past levels of employment and production. By taking historic data I'll try to model predictions on the future growth/decreases, and possibly make ammendments based on new policy developments (Trump renewables decrease, Supportive Renewables policy mostly everywhere else)
 
 -2017 US Dept of Energy jobs report: https://www.energy.gov/sites/prod/files/2017/01/f34/2017%20US%20Energy%20and%20Jobs%20Report_0.pdf
+
 -2016 Int'l Renewable Energy Agency jobs report: http://www.se4all.org/sites/default/files/IRENA_RE_Jobs_Annual_Review_2016.pdf
 Bureau of Labour Statistics info on wages: https://www.bls.gov/green/solar_power/solar_power.pdf (also includes lots of sources with more relevant info)
 Insight could be most relevant for job-seekers and students deciding on what to become trained in, employers, policymakers and energy producing companies at the municipal, state and international levels.
