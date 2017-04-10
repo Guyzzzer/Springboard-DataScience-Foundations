@@ -1,0 +1,30 @@
+##Clean up the company names- philips, akzo, van houten, unilever
+
+refine_original$company <- tolower(refine_original$company)
+refine_original$company <- gsub(pattern = "p.*\\ps$", replacement = "philips", x= refine_original$company)
+refine_original$company <- gsub(pattern = "f.*\\ps$", replacement = "philips", x= refine_original$company)
+refine_original$company <- gsub(pattern = "u.*\\er$", replacement = "unilever", x= refine_original$company)
+refine_original$company <- gsub(pattern = "a.*\\zo$", replacement = "akzo", x=refine_original$company)
+refine_original$company <- gsub(pattern ="akz0", replacement = "akzo", x=refine_original$company)
+
+## Seperate product code&number creating two new respective categories
+refine_original %>% separate(`Product code / number`, c("product_code", "product_number"))
+refine_original <- refine_original %>% separate(`Product code / number`, c("product_code", "product_number"))
+
+## convert p, x, v, q into Smartphone, TV, Laptop, Tablet respectively in new column
+refine_original %>% mutate(product_category = product_code)
+refine_original <- refine_original %>% mutate(product_category = product_code)
+refine_original$product_category <- refine_original$product_category %>% gsub(pattern = "p", replacement = "Smartphone", x= refine_original$product_category)
+refine_original$product_category <- refine_original$product_category %>% gsub(pattern = "q", replacement = "Tablet", x= refine_original$product_category)
+refine_original$product_category <- refine_original$product_category %>% gsub(pattern = "v", replacement = "TV", x= refine_original$product_category)
+refine_original$product_category <- refine_original$product_category %>% gsub(pattern = "x", replacement = "Laptop", x= refine_original$product_category)
+
+##Full adress column
+refine_original <- refine_original %>% unite("full_address", address, city, country, sep=", ")
+
+#Dummy binary variables// method courtesy of rbloggers
+for (level in unique(refine_original$company)) {
+  refine_original[paste("company", level, sep="_")] <- ifelse(refine_original$company == level, 1, 0) }
+for (level in unique(refine_original$product_category)) {
+  refine_original[paste("product", level, sep="_")] <- ifelse(refine_original$product_category == level, 1, 0)
+}
