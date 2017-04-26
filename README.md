@@ -21,4 +21,12 @@ I'd also like to take a look at the impact and growth of urban agriculture acros
 -http://www.fao.org/economic/ess/ess-publications/ess-yearbook/en/#.WOHXiFUrLX4
 Insights could help effect decisions made by farmers, food companies, local grocers, and policy makers at the municipal, state, country, and regional levels.
 
-# 3rd Idea: ?
+## 3rd Idea: Analysis on the relationships between Oil Leaks & Water
+
+After much deliberation another idea I had was to examine the relationship between water security and contaminants dispersed from ruptured oil pipelines. In the US there is a very high amount of pipeline leaks every year, and a significant portion of those affect nearby bodies of water, usually those which support a town's drinking water needs, or local aquatic life. There exists a decent amount of info pertaining to accidents in the oil industry, although I think I'd decide to focus on pipeline leaks rather than oceanic spills from tankers. Although tanker spills have a huge and long lasting impact I think it'll be easier to measure and predict the effects of smaller-scale leaks on surrounding municipalities, ecosystems and watersheds. 
+Some sources of data I'd look at:
+
+https://www.propublica.org/article/pipelines-explained-how-safe-are-americas-2.5-million-miles-of-pipelines this article explains the different factors of risk that a pipeline can exhibit, and can help me form an idea of what data points to identify when predicting the probability new leaks
+
+https://www.phmsa.dot.gov/pipeline the US has a gov't agency called the pipeline & hazardous materials safety administration, and the website has a wide array of materials to inform industry practice. Going through it will help me understand more about the risk factors and best practices, as well as some of the regulations in place that may have been different in the past.
+Finally, I will search for occurrences where a pipeline crosses a river or body of water and the details regarding the people and ecosystem relying on that water.
